@@ -11,12 +11,14 @@ html
     script(src='./javascripts/job.js')
     script(src='./javascripts/search.js')
     script(src='./javascripts/main.js')
-  body
+    script(src='./javascripts/clear.js')
+    body
     include _menu
     #actions
       include _search
       include _filter
       include _sort
+      include _clear
     #content
       block body
     script(type='text/template')#job-template
