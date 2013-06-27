@@ -49,6 +49,8 @@ bar(color)
     padding: 5px 8px
     border-radius: 2px
     font-size: 10px
+
+  .clone,
   .remove
     absolute: top 30px right -6px
     background: white
@@ -69,10 +71,12 @@ bar(color)
     &:active
       border: 1px solid #eee - 20%
   &:hover
+    .clone,
     .remove
       opacity: 1
       top: -6px
-
+  .clone
+      absolute: top 30px right 20px
 // details
 
 .job .details
